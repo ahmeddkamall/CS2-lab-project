@@ -41,7 +41,7 @@ void MainWindow::scheduleAppointment()
 
 void MainWindow::viewRecords()
 {
-    // Simulate fetching records for a specific patient ID
+    // records for a specific patient ID
     QString patientID = editPatientID->text();
     if (patientID.isEmpty()) {
         QMessageBox::warning(this, "No Patient ID", "Please enter a valid Patient ID.");
